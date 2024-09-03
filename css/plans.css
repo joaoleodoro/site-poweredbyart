@@ -1,0 +1,135 @@
+
+    .section-plans {
+        width: 100%;
+        height: 826px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    .title-plans {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+    
+    .title-plans h1 {
+        font-size: 70px;
+        font-weight: 400;
+    }
+    
+    .title-plans p {
+        width: 580px;
+        font-size: 25px;
+        font-weight: 400;
+    }
+    
+    .cards {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .card {
+        width: 309px;
+        height: 372px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+        border-radius: 15px;
+    }
+    
+    .card-head {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #F3EFE5;
+        width: 309px;
+        height: 66px;
+        border-radius: 15px 15px 0 0;
+        border: 1px solid #CBCBCB;
+    }
+    
+    .card-head h2 {
+        background-color: transparent;
+        font-weight: 400;
+        font-size: 30px;
+    }
+    
+    .card-texto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+        gap: 25px;
+        
+    }
+    
+    span {
+        font-size: 35px;
+        font-weight: 500;
+        color: black;
+    }
+    
+    .card-texto h3 {
+        font-size: 30px;
+        font-weight: 400;
+        color: #707070;
+    
+    }
+    
+    .card-texto h4 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+    .btn {
+        padding-bottom: 30px;
+    }
+    
+    
+    .btn-card-1 {
+        width: 262px;
+        height: 50px;
+        border: none;
+        border: 1px solid #CBCBCB;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    .btn-card-2 {
+        width: 262px;
+        height: 50px;
+        border: none;
+        border: 1px solid #CBCBCB;
+        border-radius: 10px;
+        font-size: 20px;
+        background-color: #F3EFE5;
+        cursor: pointer;
+    }
+    
+    .btn-card-1:hover {
+        background-color: #F3EFE5;
+        transition: 0.2s;
+    }
+    
+    .btn-card-2:hover {
+        background-color: #e6e6e6;
+        transition: 0.2s;
+        color: white;
+    }
+
+
